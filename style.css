@@ -12,7 +12,8 @@
 }
 
 body {
-    max-width: 1440px;
+    background-color: var(--Offwhite);
+    max-width: 1240px;
     margin: auto;
     font-family: 'Inter', sans-serif;
 }
@@ -34,15 +35,6 @@ h2 {
 h3 {
     color: var(--Grayishblue);
     font-size: 3rem;
-}
-
-h4 {
-    cursor: pointer;
-    font-size: 1.2rem;
-}
-
-h4:hover {
-    color: var(--softorange);
 }
 
 p {
@@ -170,6 +162,18 @@ picture {
 .news-content p {
     color: var(--Grayishblue)
 }
+
+h3.title-news  {
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 700;
+}
+
+h3.title-news:hover {
+    color: var(--softorange);
+}
+
 
 hr {
     margin: 20px 0;
